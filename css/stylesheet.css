@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 72;
+    font-size: 50px;
+    text-align: center;
+    color:#333;
+    margin-left:0px;
+}
+
+p{
+    margin-top: 56;
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+
+}
+
+body {
+    color: #555555;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    font-size:16px;
+    font-weight: normal;
+    font:normal 16px Arial,Helvetica,sans-serif;
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+
+
+div.heading {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;    
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+
+    100% { left:300px; top:0px;}
+}
+
+div.welcome {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: reverse; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;    
+}
+.hyper a:link, a:visited {
+    position: static;
+    display:inline-block;
+    margin-top: 55px;
+    margin-left:80px;
+    padding: 43px 36px 41px;
+    float: none;
+    border:1px none#000;
+    border-radius: 20px;
+    background-color: #63d39d;
+    box-shadow: 1px 1px 5px 0 #000;
+    perspective: 786px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    align-items: center;
+    color:#FFFFFF
+
+
+}
+
+a:hover, a:active {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.section{
+    padding-bottom: 340px;
+    background-image: url('../images/web-background.jpg');
+    background-position:0px 0px ;
+    background-size: 800px;
+
+}
+
+.heading3{
+    margin-bottom:4px;
+    padding-top: 196px;
+    padding-bottom: 77px;
+    padding-left: 0px;
+    direction: ltr;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+    font-size: 200px;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
